@@ -3,19 +3,19 @@
 int main()
 {
     int var1 = 100;
-    print("int : %?\n", var1);
-    print("hex : %?\n", var1);
-    print("oct : %?\n", var1);
+    printf("int : %d\n", var1);
+    printf("hex : %x\n", var1);
+    printf("oct : %o\n", var1);
 
     char var2 = 'c';
-    print("char : %?\n", var2);
+    printf("char : %c\n", var2);
 
     char* var3 = "hello world!";
-    printf("string : %?\n", var3);
+    printf("string : %s\n", var3);
 
     float var4 = 3.141592;
-    printf("float : %?\n", var4);
-    printf("exp : %?\n", var4);
+    printf("float : %f\n", var4);
+    printf("exp : %e\n", var4);
 
     return 0;
 }
